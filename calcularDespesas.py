@@ -1,11 +1,4 @@
-""" total_despesas = 0
-        print(f"calculando despesas (Salario R${salario:.2f})")
-        for item in despesas_fixas:
-            valor_gasto = float(input(f"Digite o valor gasto com {item}: "))
-            total_despesas += valor_gasto
-            saldo_final = salario - total_despesas
-            print(f"Total de despesas: R${total_despesas:.2f}")
-            print(f"Saldo restante: R${saldo_final:.2f}")"""
+
 
 class CalculoDespesas:
     def __init__(cd, salario, despesas_fixas):
